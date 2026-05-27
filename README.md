@@ -1,7 +1,4 @@
-# React + Vite
-
-# Trabajo Práctico 3 - PARTE 1 - Programación Visual
 ## Integrantes
-- Emanuel J Valeriano -  Emanuel-J-Valeriano
-- Alan Matias Nahuel Ortega - AlanOrtega75
-## Repositorio
+
+* **Alan M. Ortega** - [Usuario de GitHub](https://github.com/AlanOrtega75)
+* **Emanuel J. Valeriano** - [Usuario de GitHub](https://github.com/Emanuel-J-Valeriano)

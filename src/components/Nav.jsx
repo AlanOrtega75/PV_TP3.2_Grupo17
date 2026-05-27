@@ -1,16 +1,11 @@
-const navItems = [
-  { id: 'proyectos', label: 'Proyectos', target: '#' },
-  { id: 'nuevo', label: 'Nuevo proyecto', target: '#' },
-]
-
-export default function Nav() {
+function Nav() {
   return (
     <nav className="app-nav">
-      {navItems.map((item) => (
-        <a key={item.id} href={item.target} className="nav-button">
-          {item.label}
-        </a>
-      ))}
+      <a href="#" className="nav-button">Inicio</a>
+      <a href="#" className="nav-button">Proyectos</a>
+      <a href="#" className="nav-button">Perfil</a>
     </nav>
-  )
+  );
 }
+
+export default Nav;
