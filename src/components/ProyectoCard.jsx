@@ -6,7 +6,7 @@ const ProyectoCard = ({ proyecto, onEliminar, onVerDetalle }) => {
     <article className="project-card">
       <div className="project-card-header">
         <div>
-          /* <h4>{titulo}</h4>
+          <h4>{titulo}</h4>
           <span className="project-badge">{categoria}</span>
         </div>
       </div>
