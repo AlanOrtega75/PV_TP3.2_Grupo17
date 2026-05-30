@@ -22,6 +22,17 @@ const DetalleProyecto = ({ proyecto, onCerrar }) => {
       ))}
 
       <div className="detail-section">
+        <h4>Equipo</h4>
+        <ul>
+          {equipo.map((miembro) => (
+            <li key={`${miembro.nombre}-${miembro.rol}`}>
+              <strong>{miembro.nombre}</strong> — {miembro.rol}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="detail-section">
         <h4>Recursos</h4>
         <ul>
           {recursos.map((recurso) => (
@@ -29,17 +40,6 @@ const DetalleProyecto = ({ proyecto, onCerrar }) => {
               <a href={recurso.url} target="_blank" rel="noreferrer">
                 {recurso.nombre}
               </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <div className="detail-section">
-        <h4>Equipo</h4>
-        <ul>
-          {equipo.map((miembro) => (
-            <li key={`${miembro.nombre}-${miembro.rol}`}>
-              <strong>{miembro.nombre}</strong> — {miembro.rol}
             </li>
           ))}
         </ul>

@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className="app-header">
       <h1>Gestión de Proyectos</h1>
-      <Nav />
+      <p>Revisa, filtra y administra tus proyectos con facilidad</p>
     </header>
   );
 }
