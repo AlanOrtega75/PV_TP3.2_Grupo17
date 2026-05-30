@@ -4,7 +4,6 @@ const DetalleProyecto = ({ proyecto, onCerrar }) => {
   if (!proyecto) return null;
 
   const { titulo, categoria, estado, id, descripcion, recursos, equipo } = proyecto;
-
   return (
     <section className="project-detail-panel">
       <div className="detail-header">
